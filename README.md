@@ -27,6 +27,14 @@
 - 📬 [Mailcatcher](https://mailcatcher.me) para testes locais de e-mail.
 - 🏭 CI/CD com GitHub Actions.
 
+## Cache com Redis
+
+O dashboard suporta cache com **Redis** para acelerar respostas e reduzir carga no banco.
+
+Em ambientes com Docker Compose, habilite o serviço de Redis no `compose.yml`/`compose.override.yml` conforme sua estratégia de cache.
+
+Se você usar Redis externo, configure a URL/host nas variáveis de ambiente do backend.
+
 ## Login do Dashboard
 
 [![API docs](img/login.png)](https://github.com/fastapi/full-stack-fastapi-template)
